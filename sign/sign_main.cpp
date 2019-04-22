@@ -6,7 +6,7 @@ void sign(int n)
 	while (n > 0)
 	{
 		cout << "No Parking: " << n << endl;
-		n--;
+		return sign(n-1);
 	}
 } 
 
