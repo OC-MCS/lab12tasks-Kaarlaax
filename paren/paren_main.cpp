@@ -6,7 +6,12 @@ using namespace std;
 
 bool isBalanced(string s)
 {
-	// replace the body of this function 
+	vector<char> str;
+	if(s.size() == 0)
+	{
+		return false;
+	}
+	
 	return true;
 }
 
